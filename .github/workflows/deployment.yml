@@ -61,7 +61,7 @@ jobs:
               with:
                 name: dist-artifact
             - name: List files in dist
-              run: ls -la dist
+              run: ls 
             - name: Deploy to Server
               run: |
                 echo "Deploying to server..."
